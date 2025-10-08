@@ -1,0 +1,19 @@
+# Arquivo de entrada (dados.txt)
+# Função alvo: f(x) = x^3 - x - 2 (raiz ~ 1.521)
+function = x^3 - x - 2
+# Derivada para Newton
+derivative = 3*x^2 - 1
+# Função de iteração para Ponto Fixo (ex.: g(x) = (x + 2)^(1/3))
+g = (x + 2)^(1/3)
+
+# Intervalo que isola a raiz (para Bissecção e Regula Falsi)
+a = 1
+b = 2
+
+# Pontos iniciais
+x0 = 1.5
+x1 = 1.6
+
+# Critérios de parada
+tol = 1e-6
+max_iter = 50
